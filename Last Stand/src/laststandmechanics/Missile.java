@@ -17,7 +17,7 @@ public class Missile
     
     public Missile(int x, int y) 
     {
-        ImageIcon ii = new ImageIcon(this.getClass().getResource("missile.png"));
+        ImageIcon ii = new ImageIcon(this.getClass().getResource("Assets/Images/missile.png"));
         image   = ii.getImage();
         visible = true;
         width   = this.image.getWidth(null);

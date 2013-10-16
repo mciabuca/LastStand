@@ -24,7 +24,7 @@ public class Craft
     public Craft(int difficulty) 
     {
         
-        craft    = "craft.png";
+        craft    = "Assets/Images/craft.png";
         visible  = true;
         mode     = difficulty;
         ii       = new ImageIcon(this.getClass().getResource(this.craft));
@@ -143,7 +143,7 @@ public class Craft
                 dx = -1;
             }
             
-            ii     = new ImageIcon(this.getClass().getResource("craftLeft.png"));
+            ii     = new ImageIcon(this.getClass().getResource("Assets/Images/craftLeft.png"));
             image  = ii.getImage();
             width  = this.image.getWidth(null);
             height = this.image.getHeight(null);
@@ -158,7 +158,7 @@ public class Craft
             {
                 dx = 1;
             }
-            ii          = new ImageIcon(this.getClass().getResource("craft.png"));
+            ii          = new ImageIcon(this.getClass().getResource("Assets/Images/craft.png"));
             this.image  = ii.getImage();
             this.width  = this.image.getWidth(null);
             this.height = this.image.getHeight(null);
@@ -173,7 +173,7 @@ public class Craft
             {
                 dy = -1;
             }
-            ii     = new ImageIcon(this.getClass().getResource("craftUp.png"));
+            ii     = new ImageIcon(this.getClass().getResource("Assets/Images/craftUp.png"));
             image  = ii.getImage();
             width  = this.image.getWidth(null);
             height = this.image.getHeight(null);
@@ -188,7 +188,7 @@ public class Craft
             {
                 dy = 1;
             }
-            ii     = new ImageIcon(this.getClass().getResource("craftDown.png"));
+            ii     = new ImageIcon(this.getClass().getResource("Assets/Images/craftDown.png"));
             image  = ii.getImage();
             width  = this.image.getWidth(null);
             height = this.image.getHeight(null);
@@ -206,7 +206,7 @@ public class Craft
         if (key == 37) 
         {
             dx     = 0;
-            ii     = new ImageIcon(this.getClass().getResource("craft.png"));
+            ii     = new ImageIcon(this.getClass().getResource("Assets/Images/craft.png"));
             image  = ii.getImage();
             width  = this.image.getWidth(null);
             height = this.image.getHeight(null);
@@ -214,7 +214,7 @@ public class Craft
         if (key == 39) 
         {
             dx     = 0;
-            ii     = new ImageIcon(this.getClass().getResource("craft.png"));
+            ii     = new ImageIcon(this.getClass().getResource("Assets/Images/craft.png"));
             image  = ii.getImage();
             width  = this.image.getWidth(null);
             height = this.image.getHeight(null);
@@ -222,7 +222,7 @@ public class Craft
         if (key == 38) 
         {
             dy     = 0;
-            ii     = new ImageIcon(this.getClass().getResource("craft.png"));
+            ii     = new ImageIcon(this.getClass().getResource("Assets/Images/craft.png"));
             image  = ii.getImage();
             width  = this.image.getWidth(null);
             height = this.image.getHeight(null);
@@ -230,7 +230,7 @@ public class Craft
         if (key == 40) 
         {
             dy     = 0;
-            ii     = new ImageIcon(this.getClass().getResource("craft.png"));
+            ii     = new ImageIcon(this.getClass().getResource("Assets/Images/craft.png"));
             image  = ii.getImage();
             width  = this.image.getWidth(null);
             height = this.image.getHeight(null);

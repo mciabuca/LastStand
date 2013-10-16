@@ -22,10 +22,10 @@ public class Alien
     
     public Alien(int x, int y, String level, int difficulty) 
     {
-        craft  = "alien.png";
-        craft2 = "alien2.png";
-        craft3 = "alien3.png";
-        craft4 = "alien4.png";
+        craft  = "Assets/Images/alien.png";
+        craft2 = "Assets/Images/alien2.png";
+        craft3 = "Assets/Images/alien3.png";
+        craft4 = "Assets/Images/alien4.png";
         mode   = difficulty;
         
         if (this.mode == 2) 

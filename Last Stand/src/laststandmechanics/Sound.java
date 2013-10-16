@@ -11,9 +11,9 @@ public class Sound
     
     static 
     {
-        MISSILESHOT = Applet.newAudioClip(Sound.class.getResource("missileShot.wav"));
-        ALIENHIT    = Applet.newAudioClip(Sound.class.getResource("alienHit.wav"));
-        CRAFTDEATH  = Applet.newAudioClip(Sound.class.getResource("craftDeath.wav"));
-        MAINMUSIC   = Applet.newAudioClip(Sound.class.getResource("lastStandMusic.wav"));
+        MISSILESHOT = Applet.newAudioClip(Sound.class.getResource("Assets/Sounds/missileShot.wav"));
+        ALIENHIT    = Applet.newAudioClip(Sound.class.getResource("Assets/Sounds/alienHit.wav"));
+        CRAFTDEATH  = Applet.newAudioClip(Sound.class.getResource("Assets/Sounds/craftDeath.wav"));
+        MAINMUSIC   = Applet.newAudioClip(Sound.class.getResource("Assets/Sounds/lastStandMusic.wav"));
     }
 }
